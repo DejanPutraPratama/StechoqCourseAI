@@ -1,0 +1,78 @@
+Nama 		:Dejan Putra Pratama
+Universitas 	:Universitas Jember
+Course 		:Artificial Intelligence
+
+GIT merupakan singkatan dari Group Inclusive Tour dimana GIT merupakan salah satu Version Control System (VCS) yang gratis dan juga open source. Git dirancang untuk menangani segala project baik itu project besar atau project sederhana. Dengan GIT memungkinkan para pengembang untuk bekerja secara bersama-sama pada project yang sama dan melacak setiap perubahan yang terjadi di dalam source code.
+
+Lalu apa perbedaan antara GIT dengan GITLAB dan GITHUB ??
+
+Untuk mengetahui itu yang perlu dikethui ialah pengertian itu sendiri dimana GIT sudah dijelaskan merupakan salah satu Version Control System (VCS) selain itu dengan GIT memberikan kemudahan bagi para pengembang untuk bekerja secara bersama-sama.
+
+Sementara Gitlab merupakan salah satu layanan yang menyediakan layanan akses remote ke GIT repositories dimana Gitlab juga dapat meng-hosting project akan tetapi bersifat static. Gitlab juga mempermudah para developer di dalam mengembangkan software dengan menyediakan manajemen internal git repositories.
+
+Dan berikutnya adalah Github. Github merupakan salah satu layanan hosting git repository dimana Github juga memungkinkan para developer untuk mengelola source code-nya dengan version control system milik github atau bisa dikatakan github manajemen project, sistem versioning code, sekaligus platform jejaringan sosial bagi para developer seluruh dunia.
+
+Lalu Apakah ada persamaan antara GIT dengan GITLAB dan GITHUB ??
+
+Persamaan dari GIT, Gitlab, dan Github ialah yang pertama sama-sama berkaitan dengan pengembangan perangkat lunak dan digunakan untuk mengelola source code serta kerja tim dalam project perangkat lunak. Yang kedua ialah Menggunakan GIT sebagai Sistem Kontrol Versi dimana GIT menjadi dasar bagi semua tiga konsep ini serta mengadopsi terdesentralisasi dan sistem kontrol versi kuat yang GIT tawarkan. Yang terakhir ialah memungkinkan adanya kolaborasi.
+
+Lalu bagaimana Instalasi GIT ??
+
+Jadi di bawah ini merupakan langkah-langkah instalasi GIT :
+- Buka halaman download Git di https://git-scm.com/downloads
+- Pilih versi Git yang sesuai untuk sistem operasi Anda (Windows, Mac, atau Linux)
+- Klik link download untuk mulai mengunduh instalator Git.
+- Setelah unduhan selesai, buka file instalator dan ikuti instruksi yang muncul pada layar.
+- Selama proses instalasi, Anda dapat memilih komponen yang ingin diinstal dan direktori tempat Git akan diinstal.
+- Setelah instalasi selesai, Anda dapat memverifikasi instalasi Git dengan membuka terminal (command prompt di Windows) dan mengetikkan perintah git --version. Jika Git terinstal dengan benar, versi Git yang terpasang akan ditampilkan.
+
+Apa saja fitur-fitur yang ada pasa GIT ??
+
+Fitur-fitur pada GIT yang pertama ialah 
+
+Version control dimana GIT menyimpan setiap perubahan yang diubah pada source code, sehingga memungkinkan pengguna untuk memantau dan mengelola code version yang berbeda.
+
+yang kedua ialah
+
+GIT Branch dimana GIT Branch merupakan fitur yang paling sering digunakan di dalam version control system. Branch akan digunakan ketika developer akan menambahkan fitur baru atau memperbaiki bug. Fungsi utama dari branch itu adalah untuk tidak menggangu sorce code utama ketika terjadi penambahan fitur baru. 
+
+Yang ketiga adalah 
+
+Merging dimana GIT memungkinkan user yang sudah selesai mengembangkan code dan sudah melakukan testing pada branch baru untuk menggabungkan perubahan yang telah dibuat ke branch utama.
+
+Yang keempat adalah 
+
+Staging area dimanauser dapat memilih perubahan mana yang akan di-commit ke repository.
+
+Yang kelima adalah 
+
+GIT Rebase yang digunakan untuk menggabungkan atau menggeser commit base.
+
+Yang keenam adalah
+
+Hooks dimana Hooks merupakan script yang dijalankan secara otomatis saat terjadi peristiwa tertentu di dalam Git, seperti commit atau push.
+
+Yang ketujuh adaah
+
+GUI tools dimana GUI tools itu seperti GITKraken dan Sourcetree yang digunakan untuk memudahkan penggunaan Git bagi user yang belum terbiasa dengan command line.
+
+Lalu apa kelebihan dan kekurangan GIT ??
+
+Kelebihan :
+- Dapat mengelola versi kode sumber dengan mudah dan efisien.
+- Dapat melakukan branching dan merging dengan mudah dan aman.
+- Dapat melacak perubahan dan siapa yang membuat perubahan pada source code.
+- Memiliki performa yang cepat dan stabil dalam pengelolaan kode sumber yang besar.
+
+Kekurangan :
+- Memiliki fitur yang kompleks dan terkadang membingungkan bagi pengguna yang kurang berpengalaman.
+- Memerlukan pemahaman yang baik tentang konsep dasar seperti repository, commit, branching, dan merging.
+- Sulit digunakan untuk pengelolaan file biner atau non-teks, seperti gambar atau video.
+
+Tadi kan disinggung soal Gitlab dan Github, itu apa perbedaan Workflow-nya ??
+
+Perbedaanya yaitu :
+- workflow pada GitHub, platform ini menekankan kepada kecepatan.
+- workflow pada Gitlab menekankan pada aspek reliability nya.
+- Pada Github-flow master branch ini bertindak sebagai development branch utama. Dengan begitu, master branch akan selalu siap untuk men-deploy.
+-  Pada workflow GitLab, Anda memungkinkan untuk membuat beberapa stable branches yang berada di luar master branch. Yang artinya, workflow ini dapat memperlambat proses kinerja task untuk tim berukuran kecil.
